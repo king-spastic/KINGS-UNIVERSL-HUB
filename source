@@ -18,8 +18,12 @@ local Window = Library.CreateLib("KINGS UNIVERSIAL HUB", "Ocean")
             game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
         end
     end)
-
-    MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
+    
+            MainSection:NewButton("INF JUMP", "Hold space to inf jump release to stop.", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/7hx82nmE'))()
+    end)
+	
+     MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
     end)
     
@@ -59,3 +63,4 @@ local Window = Library.CreateLib("KINGS UNIVERSIAL HUB", "Ocean")
 
         Fly(true)
     end)
+	
