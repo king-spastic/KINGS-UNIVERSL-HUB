@@ -5,11 +5,11 @@ local Window = Library.CreateLib("KINGS UNIVERSIAL HUB", "DarkTheme")
     local MainSection = Main:NewSection("Main")
 
 
-    MainSection:NewButton("Back/Front Flip", "click x to do a backflip and click z to do a frontflip", function()
+    MainSection:NewButton("Roblox Anti Afk Script", "Prevents roblox from kicking you out of the game", function()
         loadstring(game:HttpGet('https://pastebin.com/raw/7CaZE3Ke'))()
     end)
 	
-	MainSection:NewButton("Roblox Anti Afk Script", "Prevents you from getting kicked while afk", function()
+	MainSection:NewButton("Back/Front flip", "click x to do a backflip and click z to do a frontflip", function()
         loadstring(game:HttpGet('https://pastebin.com/raw/7wDcPtLk'))()
     end)
 
