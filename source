@@ -1,11 +1,15 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("KINGS UNIVERSIAL HUB", "Ocean")
+local Window = Library.CreateLib("KINGS UNIVERSIAL HUB", "DarkTheme")
     -- MAIN
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
 
 
     MainSection:NewButton("Back/Front Flip", "click x to do a backflip and click z to do a frontflip", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/7CaZE3Ke'))()
+    end)
+	
+	MainSection:NewButton("Roblox Anti Afk Script", "Prevents you from getting kicked while afk", function()
         loadstring(game:HttpGet('https://pastebin.com/raw/7wDcPtLk'))()
     end)
 
@@ -48,9 +52,8 @@ local Window = Library.CreateLib("KINGS UNIVERSIAL HUB", "Ocean")
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
     end)
-
-
-    --Other
+	
+	--Other
     local Other = Window:NewTab("Other")
     local OtherSection = Other:NewSection("Other")
 
@@ -64,3 +67,26 @@ local Window = Library.CreateLib("KINGS UNIVERSIAL HUB", "Ocean")
         Fly(true)
     end)
 	
+		--Da Hood
+	local DaHood = Window:NewTab("DaHood")
+    local HoodSection = DaHood:NewSection("Aim")
+	
+	HoodSection:NewButton("Silent Aim", "Good semi legit aimlock for Da Hood.", function()
+    local Library = loadstring(game:HttpGet("https://pastebin.com/raw/ribrZ9UZ"))()
+end)
+
+	HoodSection:NewButton("AntiLock", "Da Hood AntiLock (click x to turn on)", function()
+    local Library = loadstring(game:HttpGet("https://pastebin.com/raw/DLrzE15p"))()
+end)
+
+	HoodSection:NewButton("Ass Cam Lock", "Goofy ahh camlock (not recommended ", function()
+    local Library = loadstring(game:HttpGet("https://pastebin.com/raw/XYyFxqG7"))()
+end)
+
+	HoodSection:NewButton("Aim Viewer", "Aim viwer to see if people are locking", function()
+    local Library = loadstring(game:HttpGet("https://pastebin.com/raw/3gsnUJbY"))()
+end)
+
+	HoodSection:NewButton("Blatant AimLock", "Q to toggle", function()
+    local Library = loadstring(game:HttpGet("https://pastebin.com/raw/UwTknCgF"))()
+end)
